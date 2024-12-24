@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+body {
+      font-family: cambria,serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, nav, main, footer {
+      padding: 10px;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      background-image: url(3.webp);
+      
+
+    }
+
+    nav {
+      background-color: #444;
+    background-image: url(3.webp);
+      color: white;
+      width: 150px; /* Adjust the width of the navigation bar */
+      float: left; /* Float the navigation bar to the left */
+      height: 2010px; /* Make it full height */
+    }
+
+    nav a {
+            text-decoration: dashed;
+            color: #333;
+            display: block;
+            padding: 10px;
+position:sticky;
+            top:30px;
+        }
+
+        nav a:hover {
+            background-color: black;
+        }
+    main {
+        
+      margin-left: 220px; /* Adjust the margin to leave space for the navigation bar */
+      padding: 20px;
+    }
+
+    footer {
+    background-image: url(3.webp);
+      color: white;
+      clear: both; /* Clear the floated elements */
+    }
+    .container {
+      display: flex;
+      align-items: center;
+    }
+
+    .image {
+      width: 100px; /* Adjust the width of the image as needed */
+      margin-right: 20px; /* Adjust the margin between image and heading as needed */
+    }
+ .project {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .project button {
+    padding: 15px 20px;
+    margin: 0 5px;
+    background-color: #e0e0e0; 
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .project button:hover {
+    background-color: #d0d0d0;
+  }
+  .project button.active {
+    pointer-events: none;
+    background-color: #808080; 
+  }
+   
+
+
+  </style>
+</head>
+
+
+ <div id="header">
+<header>
+
+
+    <div class="container">
+        <img src="team.jpg" alt="Your Image" class="image">
+        <h1  style="text-align:center;"> Let's Move To Computer Zone </h1>
+      </div>
+        
+</header>
+</div>
+
+<div id="navigation">
+<nav> <a style="font-size: 20px; background-color:red;" href="index.html">Home</a> <br><BR>
+   
+    <a style="font-size: 20px; background-color:aquamarine; "href="courses.html">Courses</a> <br><BR>
+  <a style="font-size: 20px;  background-color:yellow;"href="aboutus.html">About us</a><BR> <BR>
+</nav>
+</nav>
+</div>
+<div id="main-content">
+<main>
+ <i> <h2 style="color: red;"><u>Computer Software</u></h2>
+  <p style="text-align: left;font-size: 30px;background-image: url(no.jfif);border: 3px solid red;">
+    Computer software refers to a set of instructions or programs that enable a computer to perform specific tasks.<br><br>
+        Software can be categorized into several types based on its functionality and purpose. Here are some common
+         types of software:<br><br>   <U style="color: red;"> 1.System Software:</U><br>
+
+                               i)Operating Systems<br>
+        ii) Device Drivers <br><br>
+      <u style="color: red;"> 2.Application Software</u><br>
+       
+       i)Productivity Software<br>
+       ii)Graphics and Multimedia Software<br>
+       iii)Web Browsers<br><br>
+       
+       
+    </p><h style="font-size: 30px;color: blue;"><u>Translator Program</u></h>
+ <p style="border: 3px solid red; text-align: left;font-size: 30px;background-image: url(no.jfif);">
+
+    A translator program refers to a software tool or system designed to convert source code written in one pro
+    gramming language into an equivalent program in another programming language or machine code.<br><br>
+    <h><u style="color: blue;">Types of Translator Program</u></h><br><br>
+   
+
+   <u style="color: red;"> 1.Assembler:</u><br>
+    
+An assembler translates assembly language code into machine code. Assembly languag
+e is a low-level programming language that is more readable for humans than machine code but is still specific to the architecture of the computer. Assemblers are commonly used in sy
+stems programming and for writing certain types of software where low-level control is essential.<br><br>
+  <u style="color: red;">  2.Compiler:</u><br>
+    A compiler translates the entire source code of a program into machine code or an inter
+    mediate code in one go. The resulting executable file can be run independently of the 
+    original source code. Common programming languages that use compilers include C, C++, and Fortran.
+
+<br><br>
+
+
+
+    <u style="color: red;">3.Interpreter:</u><br>
+    
+    An interpreter translates and executes source code line by line. It doesn't produce
+     a standalone executable file but directly runs the code. Interpreted languages include Python, JavaScript, and Ruby.</i>
+    
+
+    <div class="image-container">
+        
+             <img src="we.png">
+            </div>
+
+
+   </p>
+</p>
+
+</main>
+</div>
+<div class="project">
+  <button onclick="window.location.href='IntroductionToComputer.html'">Introduction To Computer</button>
+  <button onclick="window.location.href='ComputerHardware.html'">Computer Hardware</button>
+  <button onclick="window.location.href='ComputerSoftware.html'"class="active">Computer Software</button>
+  <button onclick="window.location.href='InternetAndWebTech.html'">Internet And Web Technology</button>
+  </div>
+
+<div id="footer">
+<footer>
+  <p>&copy; Tech-Warriors. All right reserved</p>
+</footer>
+</div>
+
+
+
+
+
+
+</body>
+</html>
